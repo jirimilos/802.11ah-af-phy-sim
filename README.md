@@ -5,15 +5,15 @@ All m-files are made entirely by the authors of the simulator. Otherwise, inner 
 
 The m-files of the fading channel models, used in both simulators, were originally developed at the Brno University of Technology within the DVB-T/H Simulator, see paper:
 
-  @ARTICLE{PolakRadioeng2010,
-  title={Simulation and measurement of the transmission distortions of the digital television {DVB-T/H} part 3: Transmission in fading channels},
-  author={Polak, Ladislav and Kratochvil, Tomas},
-  journal={Radioengineering},
-  volume={19},
-  number={4},
-  pages={703--711},
-  year={2010}
-  }
+@ARTICLE{PolakRadioeng2010,
+title={Simulation and measurement of the transmission distortions of the digital television {DVB-T/H} part 3: Transmission in fading channels},
+author={Polak, Ladislav and Kratochvil, Tomas},
+journal={Radioengineering},
+volume={19},
+number={4},
+pages={703--711},
+year={2010}
+}
 
 ## The IEEE 802.11ah PHY Simulator
 The IEEE 802.11ah physical layer (PHY) simulator was created in MATLAB 2015a. Its functionality has been also tested in MATLAB 2018b. To run this simulator, the following MATLAB toolboxes are required: Control System Toolbox, Signal Processing Toolbox, DSP System Toolbox and Communications System Toolbox.
@@ -135,15 +135,15 @@ The GUI of IEEE 802.11af PHY simulator has the following buttons:
 ## Please Cite Our Paper
 If you use the 802.11ah/ay simulator, please, cite our work:
 
-  @INPROCEEDINGS{PolakTSP2020,
-  author  = {Polak, Ladislav and Jurak, Peter and Milos, Jiri},
-  title   = {{MATLAB}-{B}ased {PHY} {S}imulators for {P}erformance {S}tudy of the {IEEE} 802.11ah/af {S}ystems},
-  booktitle = {2020 43rd International Conference on Telecommunications and Signal Processing (TSP},
-  year    = {2020},
-  publisher = {IEEE},
-  pages   = {1--4},
-  month   = {July}
-  }
+@INPROCEEDINGS{PolakTSP2020,
+author  = {Polak, Ladislav and Jurak, Peter and Milos, Jiri},
+title   = {{MATLAB}-{B}ased {PHY} {S}imulators for {P}erformance {S}tudy of the {IEEE} 802.11ah/af {S}ystems},
+booktitle = {2020 43rd International Conference on Telecommunications and Signal Processing (TSP},
+year    = {2020},
+publisher = {IEEE},
+pages   = {1--4},
+month   = {July}
+}
 
 The paper is available via IEEE Explore at: TBD… 
 
