@@ -54,7 +54,12 @@ The RX part of the IEEE 802.11ah simulator has similar configuration as the TX o
 
 ##### Evaluation of the results
 The output of simulations (block *Evaluation of the results*) can be evaluated in terms of Bit Error Ration - BER (before and after FEC decoding) and Modulation Error Ratio (MER) depending on the value of signal-to-noise ratio (SNR). Moreover, constellation diagrams of the transmitted and received (in case of equalization – after equalization) signals and normalized spectrum of the received signal are plotted. 
-[Here put three pictures: “1 - 802_11_ah_constellation_diagram_TX.png”; “2 - 802_11_ah_constellation_diagram_RX.png” and “3 - 802_11_ah_normalized_spectrum.png”]
+
+![1 - 802_11_ah_constellation_diagram_TX](https://user-images.githubusercontent.com/55983849/85510824-35f53280-b5f8-11ea-9571-ab167725e146.png)
+![2 - 802_11_ah_constellation_diagram_RX](https://user-images.githubusercontent.com/55983849/85511056-7bb1fb00-b5f8-11ea-86c8-ed0e71ab6fc7.png)
+![3 - 802_11_ah_normalized_spectrum](https://user-images.githubusercontent.com/55983849/85511109-8b314400-b5f8-11ea-9d5e-6cad7d099c9f.png)
+
+
 
 ##### Instructions for the use of the 802.11ah PHY simulator
 The whole simulation, after the set of input parameters, can be run by the file 'main_802_11ah.m'. The parameters that can be set in this function (at the beginning) are as follows: 
